@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="zxx">
+
+<head>
+	<title>About us</title>
+	<!-- Meta tag Keywords -->
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta charset="UTF-8" />
+	<script>
+		addEventListener("load", function () {
+			setTimeout(hideURLbar, 0);
+		}, false);
+
+		function hideURLbar() {
+			window.scrollTo(0, 1);
+		}
+	</script>
+	<!--// Meta tag Keywords -->
+
+	<!-- Custom-Files -->
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<!-- Bootstrap-Core-CSS -->
+	<link rel="stylesheet" href="css/style.css" type="text/css" media="all" />
+	<!-- Style-CSS -->
+	<link rel="stylesheet" href="css/fontawesome-all.css">
+	<!-- Font-Awesome-Icons-CSS -->
+	<!-- //Custom-Files -->
+
+	<!-- Web-Fonts -->
+	<link href="//fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i&amp;subset=cyrillic,cyrillic-ext,greek,greek-ext,latin-ext,vietnamese"
+	    rel="stylesheet">
+	<link href="//fonts.googleapis.com/css?family=Roboto+Condensed:300,300i,400,400i,700,700i&amp;subset=cyrillic,cyrillic-ext,greek,greek-ext,latin-ext,vietnamese"
+	    rel="stylesheet">
+	<!-- //Web-Fonts -->
+
+</head>
+
+<body>
+	
+
+	<!-- header 2 -->
+	<div id="home">
+		<!-- navigation -->
+		<div class="main-top py-1">
+			<nav class="navbar navbar-expand-lg navbar-light fixed-navi">
+				<div class="container">
+					<!-- logo -->
+					<h1>
+						<a class="navbar-brand font-weight-bold font-italic" href="index1.html">
+							PHARMA-<span>MART</span>
+							<i class="fas fa-flask"></i>
+						</a>
+					</h1>
+					<!-- //logo -->
+					<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+					    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+						
+					</button>
+					<div class="collapse navbar-collapse text-center" id="navbarSupportedContent">
+						<ul class="navbar-nav ml-lg-auto">
+							
+							<li class="nav-item dropdown">
+								<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+								    aria-haspopup="true" aria-expanded="false">
+									<button class="dropbtn">Products</button>
+  <div class="dropdown-content">
+    <a href="OILS.html">OILS</a>
+    <a href="POWDERS.html">POWDERS</a>
+    <a href="HEALTH PRODUCTS.html">HEALTH PRODUCTS</a>
+  </div>
+   								</a>
+								
+							</li>
+							
+						</ul>
+						<!-- login -->
+						<a href="#" class="login-button ml-lg-5 mt-lg-0 mt-4 mb-lg-0 mb-3" data-toggle="modal" data-target="#exampleModalCenter1">
+							<i class="fas fa-sign-in-alt mr-2"></i>Login</a>
+						<!-- //login -->
+					</div>
+				</div>
+			</nav>
+		</div>
+		<!-- //navigation -->
+		<!-- modal -->
+		<!-- login -->
+		<div class="modal fade" id="exampleModalCenter1" tabindex="-1" role="dialog" aria-hidden="true">
+			<div class="modal-dialog modal-dialog-centered" role="document">
+				<div class="modal-content">
+					<div class="modal-header text-center">
+						<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+							<span aria-hidden="true">&times;</span>
+						</button>
+					</div>
+					<div class="modal-body">
+						<div class="login px-4 mx-auto mw-100">
+							<h5 class="text-center mb-4">Login Now</h5>
+							<form action="#" method="post">
+								<div class="form-group">
+									<label>Your Name</label>
+									<input type="text" class="form-control" name="name" placeholder="" required="">
+								</div>
+								<div class="form-group">
+									<label class="mb-2">Password</label>
+									<input type="password" class="form-control" name="password" placeholder="" required="">
+								</div>
+								<button type="submit" class="btn submit mb-4">Login</button>
+								<p class="forgot-w3ls text-center pb-4">
+									<a href="#" class="text-white">Forgot your password?</a>
+								</p>
+								<p class="account-w3ls text-center pb-4">
+									Don't have an account?
+									<a href="#" data-toggle="modal" data-target="#exampleModalCenter2">Create one now</a>
+								</p>
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- //login -->
+		<!-- register -->
+		<div class="modal fade" id="exampleModalCenter2" tabindex="-1" role="dialog" aria-hidden="true">
+			<div class="modal-dialog modal-dialog-centered" role="document">
+				<div class="modal-content modal-content-2">
+					<div class="modal-header text-center">
+						<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+							<span aria-hidden="true">&times;</span>
+						</button>
+					</div>
+					<div class="modal-body">
+						<div class="login px-4 mx-auto mw-100">
+							<h5 class="text-center mb-4">Register Now</h5>
+							<form action="#" method="post">
+								<div class="form-group">
+									<label>Your Name</label>
+									<input type="text" class="form-control" name="name" placeholder="" required="">
+								</div>
+								<div class="form-group">
+									<label>Email</label>
+									<input type="email" class="form-control" name="email" placeholder="" required="">
+								</div>
+								<div class="form-group">
+									<label class="mb-2">Password</label>
+									<input type="password" class="form-control" name="password" id="password1" placeholder="" required="">
+								</div>
+								<div class="form-group">
+									<label>Confirm Password</label>
+									<input type="password" class="form-control" name="password" id="password2" placeholder="" required="">
+								</div>
+								<button type="submit" class="btn btn-primary submit mb-4">Register</button>
+								<p class="text-center pb-2">
+									<a href="#" class="text-white">By clicking Register, I agree to your terms</a>
+								</p>
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- //register -->
+		<!-- //modal -->
+	</div>
+	<!-- //header 2 -->
+
+	<!-- banner 2 -->
+	<div class="inner-banner-w3ls">
+		<div class="container">
+
+		</div>
+		<!-- //banner 2 -->
+	</div>
+	<!-- page details -->
+	<div class="breadcrumb-agile">
+		<div aria-label="breadcrumb">
+			<ol class="breadcrumb">
+				<li class="breadcrumb-item">
+					<a href="index1.html">Home</a>
+				</li>
+				<li class="breadcrumb-item active" aria-current="page">About Us</li>
+			</ol>
+		</div>
+	</div>
+
+			<pre><p>
+ 
+
+
+
+</p></pre>
+			<div class="row inner-sec-w3layouts-agileinfo">
+				<div class="col-md-4 team-grids text-center">
+		<div class="oilfont"><img src="images/FP/nu.jpg" class="img-fluid">
+				</div>
+					<div class="team-info">
+						<div class="caption">
+							<h4>Naphthalene Ball</h4>							
+						</div>
+					</div>
+				</div>
+
+	<section class="about py-5">
+		<div class="container py-xl-5 py-lg-3">
+			<div class="w3ls-titles text-center mb-md-5 mb-4">
+				
+			</div>
+	<p class="aboutpara text-center mx-auto">Naphthalene Ball-Naphthalene balls, also known as moth balls or camphor balls, are spherical pieces of a white solid material containing at least 98 percent naphthalene. They were widely used to repel moths and cockroaches and as deodorants for urinals and bathrooms. Naphthalene is carcinogenic and poses several other health hazards, so it is no longer used for household purposes in several countries. It is still widely available in several Asian countries, where naphthalene balls are used to preserve woolen fabrics.
+</p>
+</div>
+</section>

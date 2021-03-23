@@ -1,0 +1,43 @@
+
+/*this css code is written for setting the background in div tag*/
+body{
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+
+}
+
+/*css for why choose us?*/
+#card_text{
+  font-family: 'Satisfy', cursive;
+  font-size: 80px;
+  text-align: center;
+  color: #c70039;
+
+}
+
+#costomer_view{
+  margin-top: 10px;
+
+}
+
+.custmr{
+  position: relative;
+  margin-top: -30%;
+  height: 20%;
+  width: 20%;
+  margin-left: 35%;
+}
+
+#our_custm{
+  text-align: left;
+  margin-left: 2%;
+  margin-top: -20%;
+  font-family: 'Satisfy', cursive;
+  color:#ffffff;
+}
+
+.arrow{
+  height: 200px;
+  width: 200px;
+}
